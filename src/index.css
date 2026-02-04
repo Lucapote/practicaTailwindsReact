@@ -16,7 +16,7 @@
         @font-face {
             font-family: 'Bubbleboddy';
             /* Asegúrate de que el nombre del archivo .otf coincida aquí */
-            src: url('fonts/Bubbleboddy-ExtraLight/Bubbleboddy-ExtraLightTrial.ttf') format('truetype');
+            src: url('/fonts/Bubbleboddy-ExtraLight/Bubbleboddy-ExtraLightTrial.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
@@ -24,7 +24,7 @@
         @font-face {
             font-family: 'Saphira';
             /* Asegúrate de que el nombre del archivo .otf coincida aquí */
-            src: url('fonts/Saphira-DEMO/SaphiraDEMO.otf') format('opentype');
+            src: url('/fonts/Saphira-DEMO/SaphiraDEMO.otf') format('opentype');
             font-weight: normal;
             font-style: normal;
         }
