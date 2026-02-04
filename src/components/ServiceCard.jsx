@@ -41,7 +41,7 @@ const ServiceCard = ({
                 <ul className="space-y-3 mb-8">
                     {features.map((feature, index) => (
                         <li key={index} className="flex items-center text-sm">
-                            <i className='fa-regular fa-circle-check ml-1'></i>
+                            <i className='fa-regular fa-circle-check mr-3'></i>
                             <span data-i18n={feature.i18n} className={listItemTextClasses}>
                                 {feature.text}
                             </span>
