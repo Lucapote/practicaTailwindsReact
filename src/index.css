@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+        @theme {
+          --color-primary: #056b69;
+          --color-secondary: #c1e1de;
+          --color-background-light: #FAFAFA;
+          --color-surface-light: #ffffff;
+
+          --font-serif: "Playfair Display", serif;
+          --font-sans: "Lato", sans-serif;
+          --font-script: "Great Vibes", cursive;
+          --font-bubble: "Bubbleboddy", sans-serif;
+          --font-saphira: "Saphira", serif;
+        }
+
+        @font-face {
+            font-family: 'Bubbleboddy';
+            /* Asegúrate de que el nombre del archivo .otf coincida aquí */
+            src: url('fonts/Bubbleboddy-ExtraLight/Bubbleboddy-ExtraLightTrial.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Saphira';
+            /* Asegúrate de que el nombre del archivo .otf coincida aquí */
+            src: url('fonts/Saphira-DEMO/SaphiraDEMO.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #056b69;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #045250;
+        }
