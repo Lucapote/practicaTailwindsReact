@@ -15,7 +15,7 @@ export const Hero = () => {
                     Lo que el corazón prometió<br />
                     <span className="font-light italic text-4xl md:text-6xl block mt-2">que el tiempo no lo borre</span>
                 </h1>
-                <p data-i18n="hero_desc" className="text-lg md:text-xl font-light mb-10 text-gray-200 max-w-2xl mx-auto">
+                <p data-i18n="hero_desc" className="text-lg md:text-xl font-light mb-10 text-gray-200 max-w-2xl mx-auto font-bubble">
                     Fotografía y Cinematografía de alta gama para quienes entienden que el valor de una historia no está
                     en capturarla, sino en saber preservarla. Exclusividad, innovación y presencia absoluta
                 </p>
